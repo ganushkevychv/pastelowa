@@ -1,4 +1,4 @@
-import background from '../src/images/background.png';
+import background from '../src/images/background.webp';
 import './App.css';
 
 function App() {
