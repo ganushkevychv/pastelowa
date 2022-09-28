@@ -6,12 +6,7 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
+    NavLink
   } from 'reactstrap';
   
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,10 +21,15 @@ const Menu = (args) => {
     const color = {
         color:"white"
     }
+    const navbarMenuButton = {
+        height: "2.5em",
+        width: "2.5em",
+        backgroundColor: "white"
+    }
 
 return(
 <div>
-      <Navbar {...args} expand="xl" fixed="top">
+      <Navbar {...args} expand="xl" dark="true">
         <NavbarBrand style={color} href="/">Finger Foods</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -47,7 +47,6 @@ return(
               <NavLink style={color} href="/Contact/">Kontakt</NavLink>
             </NavItem>
              </Nav>
-          <NavbarText style={color}>Pastelowa</NavbarText>
         </Collapse>
       </Navbar>
     </div>

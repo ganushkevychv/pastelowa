@@ -17,9 +17,36 @@ opacity: 0.3;
   width: 100%;
   background-color: black;
 } 
-/* @media screen and (min-width: 480px) {
-  .background-container {
+/* navbar menu button */
+.navbar-toggler-icon {
+  height: 2.5em;
+  width: 2.5em;
+  background-color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: white;
+}
+.navbar-nav, .me-auto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  list-style: none;
+}
+/* Cards */
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+ /*@media screen and (min-width: 480px) {
+  /* .background-container {
     height: 100%;
     width: 100%;
-  }
+  } 
 } */

@@ -1,6 +1,7 @@
 import background from '../src/images/background.webp';
 import './App.css';
 import Menu from './components/Menu';
+import Cards from './components/Cards';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
         <Menu/>
         <img src={background} className="App-backgroundImage" alt="logo" />
         </div>
-      
+      <div className='cards-container'>
+        <Cards/>
+      </div>
     </div>
   );
 }
