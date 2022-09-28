@@ -1,14 +1,16 @@
 import background from '../src/images/background.webp';
 import './App.css';
+import Menu from './components/Menu';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+     
         <div className='background-container'>
+        <Menu/>
         <img src={background} className="App-backgroundImage" alt="logo" />
         </div>
-      </header>
+      
     </div>
   );
 }
