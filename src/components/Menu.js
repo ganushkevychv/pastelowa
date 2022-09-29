@@ -25,7 +25,7 @@ const Menu = (args) => {
 return(
 <div>
       <Navbar {...args} expand="xl" dark="true">
-        <NavbarBrand style={color} href="/">Finger Foods</NavbarBrand>
+        <NavbarBrand style={color} href="/">Pastelowa</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
