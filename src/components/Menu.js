@@ -8,7 +8,7 @@ import {
     NavItem,
     NavLink
   } from 'reactstrap';
-  
+  import logoColor from '../images/logoColor100x64.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  
@@ -25,7 +25,7 @@ const Menu = (args) => {
 return(
 <div>
       <Navbar {...args} expand="xl" dark="true">
-        <NavbarBrand style={color} href="/">Pastelowa</NavbarBrand>
+        <NavbarBrand style={color} href="/"><img src={logoColor} className="logo-mono" alt="logoMono"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>

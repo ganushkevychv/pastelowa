@@ -1,4 +1,4 @@
-import logo from '../images/logo166x114.png'
+import logo from '../images/logoColor.png'
 import { CardGroup, Card, CardImg, CardBody,CardTitle, Button  } from 'reactstrap';
 const Cards = () => {
 
