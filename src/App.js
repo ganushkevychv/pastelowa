@@ -1,17 +1,20 @@
+import {BrowserRouter as Router, Switch, Route, Routes} from 'react-router-dom'
+import Home from '../src/pages/Home'
+import About from '../src/pages/About';
 import './App.css';
-import Menu from './components/Menu';
-import Cards from './components/Cards';
-import Background from './components/Background';
 
 function App() {
   return (
-    <div className="App">
-    <div className='background-container'>
-        <Menu/>
-        <Background/>
+    <Router>
+   <div className="App">
+      <Routes>
+      <Route path="/" exact element={<Home/>}/>
+      <Route path="/About" element={<About/>}/>
+      </Routes>
     </div>
-        <Cards/>
-    </div>
+    </Router>
+
+
   );
 }
 
