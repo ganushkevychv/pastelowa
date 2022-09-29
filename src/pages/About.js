@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
         <Menu/>
-        <h1>About page</h1>
+        <h1>O Nas</h1>
         </>
     )
 }
