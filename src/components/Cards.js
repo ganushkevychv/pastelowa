@@ -1,5 +1,5 @@
 import logo from '../images/logo166x114.png'
-import { CardGroup, Card, CardImg, CardBody,CardTitle, CardSubtitle,CardText, Button  } from 'reactstrap';
+import { CardGroup, Card, CardImg, CardBody,CardTitle, Button  } from 'reactstrap';
 const Cards = () => {
 
 

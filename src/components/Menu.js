@@ -10,7 +10,6 @@ import {
   } from 'reactstrap';
   
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../images/logo.png'
 
  
 
@@ -21,11 +20,7 @@ const Menu = (args) => {
     const color = {
         color:"white"
     }
-    const navbarMenuButton = {
-        height: "2.5em",
-        width: "2.5em",
-        backgroundColor: "white"
-    }
+   
 
 return(
 <div>
