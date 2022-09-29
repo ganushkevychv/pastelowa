@@ -25,7 +25,11 @@ const Menu = (args) => {
 return(
 <div>
       <Navbar {...args} expand="xl" dark="true">
-        <NavbarBrand style={color} href="/"><img src={logoColor} className="logo-mono" alt="logoMono"/></NavbarBrand>
+        <NavbarBrand style={color} href="/">
+            <div className='logoColor-container'>
+        <img src={logoColor} className="logo-mono" alt="logoMono"/>
+        </div>
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
