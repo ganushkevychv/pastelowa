@@ -75,18 +75,16 @@ opacity: 0.5;
   .App-backgroundImage {
     display: none;
   }
-  
+  .mobile-container{
+    min-width: 100%;
+
+  }
   .App-backgroundMobile {
-    height: 30vmin;
-    background-color: white;
-    min-height: 69vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
-    padding-bottom: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 67px;
+    width: 100%;
+    padding-left: 8px;
     }
     .logo-mono {
       display: none;
