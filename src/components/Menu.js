@@ -24,10 +24,10 @@ const Menu = (args) => {
 
 return(
 <div>
-      <Navbar {...args} expand="xl" dark="true">
+      <Navbar {...args} expand="xl" dark color='dark'>
         <NavbarBrand style={color} href="/">
             <div className='logoColor-container'>
-        <img src={logoColor} className="logo-mono" alt="logoMono"/>
+        <img src={logoColor} className="logoColor" alt="logoColor"/>
         </div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
