@@ -1,12 +1,12 @@
 import Menu from "../components/Menu";
-
+import Cards from '../components/Cards';
 
 const Offers = () => {
 
     return(
         <>
         <Menu/>
-        <h1>Oferta</h1>
+        <Cards/>
         </>
     )
 }
