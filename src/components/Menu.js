@@ -24,7 +24,7 @@ const Menu = (args) => {
 
 return(
 <div>
-      <Navbar {...args} expand="xl" dark color='dark'>
+      <Navbar {...args} expand="xl" dark >
         <NavbarBrand style={color} href="/">
             <div className='logoColor-container'>
         <img src={logoColor} className="logoColor" alt="logoColor"/>
