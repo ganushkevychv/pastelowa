@@ -1,12 +1,12 @@
 import Menu from '../components/Menu';
-import Background from '../components/Background';
+import BackgroundSlider from '../components/BackgroundSlider';
 import TextOffer from '../components/TextOffer';
 function App() {
   return (
     <div className="App">
     <div className='background-container'>
         <Menu/>
-        <Background/>
+        <BackgroundSlider/>
         <TextOffer/>
     </div>
     </div>
