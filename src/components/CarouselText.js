@@ -8,7 +8,6 @@ import {
   CarouselCaption,
   Card,
   CardBody,
-  CardTitle,
   CardText
 } from 'reactstrap';
 
@@ -64,17 +63,17 @@ const CarouselText = (props) => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
       >
-        <Card className='carousel-text'>
+        <Card className='carousel-text mobile'>
         <CardBody>
-        <CardTitle>{item.header}</CardTitle>
         <CardText>
-        <CardText>{item.caption}</CardText>
-        <CardText>{item.captionOne}</CardText>
-        <CardText>{item.captionTwo}</CardText>
-        <CardText>{item.captionThree}</CardText>
-        <CardText>{item.captionFour}</CardText>
-        <CardText>{item.captionFive}</CardText>
-        <CardText>{item.captionSix}</CardText>
+        <CardText className='carousel-text-card'>{item.header}</CardText>
+        <CardText className='carousel-text-card'>{item.caption}</CardText>
+        <CardText className='carousel-text-card'>{item.captionOne}</CardText>
+        <CardText className='carousel-text-card'>{item.captionTwo}</CardText>
+        <CardText className='carousel-text-card'>{item.captionThree}</CardText>
+        <CardText className='carousel-text-card'>{item.captionFour}</CardText>
+        <CardText className='carousel-text-card'>{item.captionFive}</CardText>
+        <CardText className='carousel-text-card'>{item.captionSix}</CardText>
         </CardText>
         </CardBody>
         </Card>
@@ -93,7 +92,7 @@ const CarouselText = (props) => {
               background: black;
             }`}
       </style>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous} pause="false" interval="4000">
+      <Carousel activeIndex={activeIndex} next={next} previous={previous} interval="4000">
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}

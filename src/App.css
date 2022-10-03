@@ -85,23 +85,24 @@ opacity: 0.5;
   width: auto;
   border-radius: 0;
   font-weight: bold;
+  font-size: 20px;
 }
-
+.carousel-text-card{
+  font-size: 15px;
+}
 @media screen and (min-width: 600px) {
   .App-backgroundMobile{
     display: none;
   }
+
 }
  @media screen and (max-width: 480px) {
    .App-backgroundImage {
     display: none;
     height: 100vh;
-   
   } 
-
   .mobile-container{
     min-width: 100%;
-
   }
   .App-backgroundMobile {
     background-size: contain;
@@ -112,5 +113,11 @@ opacity: 0.5;
     }
     .logo-mono {
       display: none;
+    }
+    .carousel-text-card {
+      font-size: 13px;
+    }
+    .mobile {
+      font-size: 15px;
     }
 }
