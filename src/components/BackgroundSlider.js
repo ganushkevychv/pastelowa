@@ -19,7 +19,7 @@ const images = [
 const [image, setImage] = useState(0);
 useEffect(() => {
     const interval = setInterval(() => {
-      if (image === images - 1) {
+      if (image === images.length - 1) {
         setImage(0);
       } else {
         setImage(image + 1);
