@@ -74,6 +74,18 @@ opacity: 0.5;
 .text-container {
   background-color: white;
 }
+/*CarouselText*/
+.carousel-text {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height:90%;
+  width: auto;
+  border-radius: 0;
+  font-weight: bold;
+}
 
 @media screen and (min-width: 600px) {
   .App-backgroundMobile{
