@@ -1,5 +1,6 @@
 import logo from '../images/logoColor.png'
 import { CardGroup, Card, CardImg, CardBody,CardTitle, Button  } from 'reactstrap';
+import ModalMenuCard from './ModalMenuCard';
 const Cards = () => {
 
 
@@ -33,9 +34,10 @@ return (
       <CardTitle tag="h5">
       Dania Mięsne
       </CardTitle>
-       <Button color="danger">
+      <ModalMenuCard/>
+       {/* <Button color="danger">
       SPRAWDŹ
-      </Button>
+      </Button> */}
     </CardBody>
   </Card>
   <Card>
