@@ -32,7 +32,7 @@ return(
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="me-auto" navbar>
+          <Nav className="me-auto" navbar fas icon="bars">
             <NavItem>
               <NavLink style={color} href="/About/">O Nas</NavLink>
             </NavItem>
