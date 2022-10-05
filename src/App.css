@@ -97,6 +97,13 @@ display: flex;
 .carousel-text-card{
   font-size: 15px;
 }
+/* footer */
+.logoMono-footer {
+  width: 200px;
+}
+.carousel-control-next-icon::after, .carousel-control-prev-icon::after {
+  content: none;
+}
 @media screen and (min-width: 600px) {
   .App-backgroundMobile{
     display: none;
