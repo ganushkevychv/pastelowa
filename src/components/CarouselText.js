@@ -92,7 +92,7 @@ const CarouselText = (props) => {
               background: black;
             }`}
       </style>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous} interval="4000">
+      <Carousel activeIndex={activeIndex} next={next} previous={previous} interval="5000">
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}
