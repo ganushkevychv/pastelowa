@@ -1,5 +1,5 @@
 import logo from '../images/logoColor.png'
-import { CardGroup, Card, CardImg, CardBody,CardTitle, Button  } from 'reactstrap';
+import { CardGroup, Card, CardImg, CardBody,CardTitle, Button, NavLink } from 'reactstrap';
 import ModalMenuCard from './ModalMenuCard';
 const Cards = () => {
 
@@ -19,7 +19,7 @@ return (
       Finger Food
       </CardTitle>
       <Button color="danger">
-      SPRAWDŹ
+       <NavLink  href="/FingerFood/">SPRAWDŹ</NavLink>
       </Button>
     </CardBody>
   </Card>

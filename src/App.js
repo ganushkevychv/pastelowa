@@ -3,6 +3,7 @@ import Home from '../src/pages/Home'
 import About from '../src/pages/About';
 import Gallery from '../src/pages/Gallery';
 import Offers from '../src/pages/Offers';
+import FingerFood from './pages/FingerFood';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="/About" element={<About/>}/>
       <Route path="/Promo" element={<Offers/>}/>
       <Route path="/Galeria" element={<Gallery/>}/>
+      <Route path="/FingerFood" element={<FingerFood/>}/>
       </Routes>
     </div>
     </Router>
