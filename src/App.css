@@ -100,6 +100,14 @@ display: flex;
 .carousel-text-card{
   font-size: 15px;
 }
+/*FingerFood page*/
+.FingerFood {
+  background-color: black;
+  color: white;
+}
+.h-100 {
+  background-color: black;
+}
 /* footer */
 .logoMono-footer {
   width: 200px;
