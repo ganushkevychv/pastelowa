@@ -119,6 +119,15 @@ display: flex;
 .h-100 {
   background-color: black;
 }
+/*GalleryComp*/
+.gallery-container{
+  background-color: black;
+  padding: 5px 5px 5px 5px;
+}
+  .navbar>.container-fluid {
+background-color: black;
+  }
+
 /* footer */
 .logoMono-footer {
   width: 200px;
