@@ -19,7 +19,7 @@ const textLinkAddress = {
 
 
   return (
-    <MDBFooter bgColor='black' color='white' className='text-center text-lg-start'>
+    <MDBFooter id='footer' bgColor='black' color='white' className='text-center text-lg-start'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Połącz się z nami w sieciach społecznościowych:</span>

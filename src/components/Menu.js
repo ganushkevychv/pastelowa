@@ -43,7 +43,7 @@ return(
               <NavLink style={color} href="/Galeria/">Galeria</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={color} href="/Contact/">Kontakt</NavLink>
+              <NavLink style={color} href="#footer">Kontakt</NavLink>
             </NavItem>
              </Nav>
         </Collapse>

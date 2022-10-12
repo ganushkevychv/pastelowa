@@ -1,4 +1,5 @@
 import Menu from "../components/Menu";
+import GalleryComp from "../components/GalleryComp";
 
 
 const Gallery = () => {
@@ -6,6 +7,7 @@ const Gallery = () => {
     return (
         <>
         <Menu/>
+        <GalleryComp/>
         <h1>Galeria</h1>
         </>
     )
