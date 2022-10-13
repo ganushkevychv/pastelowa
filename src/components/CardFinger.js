@@ -27,7 +27,6 @@ const CardFinger = () => {
             <MDBCardText>
             Pikantne klopsiki wieprzowo – wołowe z ogórkiem konserwowym 
             </MDBCardText>
-          
           <MDBCardTitle>5 zł</MDBCardTitle>
           </MDBCardBody>
         </MDBCard>
@@ -40,14 +39,12 @@ const CardFinger = () => {
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>Koreczki</MDBCardTitle>
             <MDBCardText>
-              This card has supporting text below as a natural lead-in to additional content.
+            Oliwka, mozzarella, pomidor cherry
             </MDBCardText>
+          <MDBCardTitle>4 zł</MDBCardTitle>
           </MDBCardBody>
-          <MDBCardFooter>
-            <small>Last updated 3 mins ago</small>
-          </MDBCardFooter>
         </MDBCard>
       </MDBCol>
       <MDBCol>
