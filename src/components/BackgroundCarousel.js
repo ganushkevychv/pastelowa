@@ -60,7 +60,7 @@ const BackgroundCarousel = (args) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       ><div className="background">
-        <img src={item.src}  alt={item.altText} className="App-backgroundImage" />
+        <img src={item.src}  alt='corousel with images' className="App-backgroundImage" />
         
         <CarouselCaption 
           captionText={item.caption}

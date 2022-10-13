@@ -10,6 +10,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 import logo from '../images/logoColor.png'
+import finger from '../images/finger.webp'
 
 const CardFinger = () => {
   return (
@@ -17,20 +18,18 @@ const CardFinger = () => {
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
-            src={logo}
-            alt='...'
+            src={finger}
+            alt='meatballs'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>Koreczki</MDBCardTitle>
             <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
+            Pikantne klopsiki wieprzowo – wołowe z ogórkiem konserwowym 
             </MDBCardText>
+          
+          <MDBCardTitle>5 zł</MDBCardTitle>
           </MDBCardBody>
-          <MDBCardFooter>
-            <small>Last updated 3 mins ago</small>
-          </MDBCardFooter>
         </MDBCard>
       </MDBCol>
       <MDBCol>

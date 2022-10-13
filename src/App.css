@@ -119,6 +119,11 @@ display: flex;
 .h-100 {
   background-color: black;
 }
+.card-text{
+  display: flex;
+  justify-content: center!important;
+  align-items: center!important;
+}
 /*GalleryComp*/
 .gallery-container{
   background-color: black;
