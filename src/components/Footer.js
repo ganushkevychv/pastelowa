@@ -95,7 +95,7 @@ const textLinkAddress = {
                 </Link>
               </p>
               <p>
-                <a href='https://pastelowa.com.pl/' className='text-reset' >
+                <a href='https://pastelowa.com.pl/' className='text-reset' aria-label="Read more about pastelowa" >
                   Pastelowa
                 </a>
               </p>
@@ -144,7 +144,11 @@ const textLinkAddress = {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © {new Date().getFullYear()} Copyright:{''}  
-        <a className='text-reset fw-bold' href='https://pastelowa.com.pl/' style={textLink}> Pastelowa
+        <a className='text-reset fw-bold'
+         href='https://pastelowa.com.pl/'
+         style={textLink}
+         aria-label="Read more about pastelowa"
+         > Pastelowa
         </a>
       </div>
     </MDBFooter>

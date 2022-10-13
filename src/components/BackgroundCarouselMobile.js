@@ -88,13 +88,13 @@ const BackgroundCarouselMobile = (args) => {
         direction="prev"
         directionText="Previous"
         onClickHandler={previous}
-        aria-label="button prev"
+       
       />
       <CarouselControl
         direction="next"
         directionText="Next"
         onClickHandler={next}
-        aria-label="button next"
+
       />
     </Carousel>
   );
