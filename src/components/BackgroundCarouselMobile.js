@@ -60,7 +60,7 @@ const BackgroundCarouselMobile = (args) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       ><div className="background">
-        <img src={item.src}  alt={item.altText} className="App-backgroundImage" />
+        <img src={item.src}  alt="background" className="App-backgroundImage" />
         <div className="centered"><img src={logoMono} className="logo-mono" alt="logoMono"/></div>
         <CarouselCaption 
           captionText={item.caption}
@@ -88,11 +88,13 @@ const BackgroundCarouselMobile = (args) => {
         direction="prev"
         directionText="Previous"
         onClickHandler={previous}
+        aria-label="button prev"
       />
       <CarouselControl
         direction="next"
         directionText="Next"
         onClickHandler={next}
+        aria-label="button next"
       />
     </Carousel>
   );
